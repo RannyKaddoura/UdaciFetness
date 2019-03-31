@@ -3,6 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import AddEntry from './components/AddEntry';
 
 export default class App extends React.Component {
+  
   render() {
     return (
       <View style={styles.app}>
