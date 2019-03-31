@@ -9,16 +9,10 @@ export default class App extends React.Component {
   render() {
     return (
       <Provider store={createStore(reducer)}>
-        <View style={{flex: 1, marginTop: 50}}>
+        <View style={{ flex: 1 }}>
           <AddEntry />
         </View>
       </Provider>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  app: {
-    marginTop: 50
-  }
-});
